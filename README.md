@@ -1,6 +1,7 @@
-# Electricity_Billing_System1
-Electricity Billing System
-This is a GUI made using Java Swing. It lets User perform multiple operations like:-
+# Electricity Billing System
+This is a GUI made using Java Swing.
+It lets User perform multiple operations like:-
+
 
 1- User can Create his Personal login for security purposes.
 
@@ -10,8 +11,10 @@ This is a GUI made using Java Swing. It lets User perform multiple operations li
 
 4- User can Generate Bill.
 
-About Project:
-This Java application was created using Intelli J . Additional library was added for the support of JDBC (Required to setup the connection between the Database and Java Application). It contains 9 different classes which works together to create a better user experience .
+## About Project:
+This Java application was created using Intelli J .
+Additional library was added for the support of JDBC (Required to setup the connection between the Database and Java Application).
+It contains 9 different classes which works together to create a better user experience .
 
 ->Splash Screen class
 
@@ -31,8 +34,9 @@ This Java application was created using Intelli J . Additional library was added
 
 ->Connection Setup class(JDBC - MySQL)
 
-Database (MySQL)
+## Database (MySQL)
 Database for this Electricity Billing System contains 4 Tables
+
 
 ->Login Table (UserName,Password)
 
@@ -42,22 +46,31 @@ Database for this Electricity Billing System contains 4 Tables
 
 ->Tax Table(MeterLocation,MeterType,PhaseCode,BillType,Days,MeterRent,MCB_Rent,ServiceRent,GST)
 
+
 Java communicates with MySQL tables using JDBC which stands for Java Database Connectivity.
 
-Screenshots:
-Login
+## Screenshots:
 
+## Login
 
-Main Page
+<img src="https://github.com/Adarsh9616/Electricity_Billing_System/blob/master/ScreenShots/Login.JPG" width="400" height="300">
 
+## Main Page
 
-Add Customer
+<img src="https://github.com/Adarsh9616/Electricity_Billing_System/blob/master/ScreenShots/Main.JPG" width="600" height="500">
 
+## Add Customer
 
-Calculate Bill
+<img src="https://github.com/Adarsh9616/Electricity_Billing_System/blob/master/ScreenShots/AddC.JPG" width="500" height="500">
 
+## Calculate Bill
 
-Details
+<img src="https://github.com/Adarsh9616/Electricity_Billing_System/blob/master/ScreenShots/CalculateBill.JPG" width="500" height="500">
 
+## Details
 
-Generate Bill
+<img src="https://github.com/Adarsh9616/Electricity_Billing_System/blob/master/ScreenShots/Details.JPG" width="800" height="300">
+
+## Generate Bill
+
+<img src="https://github.com/Adarsh9616/Electricity_Billing_System/blob/master/ScreenShots/GenerateBill.JPG" width="400" height="700">
